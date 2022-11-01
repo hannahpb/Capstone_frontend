@@ -1,4 +1,4 @@
-.header-about{
+.header-announcement{
     border: 10px;
     width: 100%;
     height: 120px;
@@ -8,7 +8,7 @@
 
 }
 
-.about-header-title{
+.announcement-header-title{
     margin-left: 190px;
     color: #fff;
     font-size: 40px;
@@ -17,19 +17,8 @@
 
 }
 
-.container{
-    text-align: center;
-  }
-  .logo{
-    height: 15rem;
-    margin-left: 15px;
-  }
-  .title{
-    font-size: 27px;
-    font-weight: bold;
-    line-height: 38px;
-  }
-  .box{
+
+.box{
     width: 50%;
     height: 350px;
     box-shadow:  5px 5px 10px #888888;
@@ -37,39 +26,14 @@
     margin-left: auto;
     border-radius: 15px;
     padding: 10px;
-    }
-
-  .subtitle{
-    width: 520px; 
-    text-align: center;
-    margin-left: 15vh;
-    font-size: 22px;
-    padding: 15px;
-  }
-
-.members{
-    margin-left: 690px;
-    margin-top: 15px;
-    font-size: 25px;
-    font-family: monospace;
-    font-weight: bold;
+    margin-top: 25px;
 }
 
-.member-one{
-    margin-left:-255px;
+.announce{
+  size:25px
 }
 
-.member-two{
-    margin-left:200px;
-}
-
-.member-three{
-    margin-left:200px;
-}
-
-.ending{
-    font-size: 12px;
-    margin-top: 50px;
-    font-weight: lighter;
-    
+.announcement{
+  margin-left: 1100px;
+  margin-top: -200px;
 }

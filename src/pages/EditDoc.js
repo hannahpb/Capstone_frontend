@@ -4,6 +4,7 @@ import axios from 'axios';
 import swal from 'sweetalert';
 import { useNavigate, Link } from "react-router-dom";
 import Navbar from './Navbar';
+import './css/EditDoc.css';
 
 const EditDoc = ({userdata}) => {
     const location = useLocation();

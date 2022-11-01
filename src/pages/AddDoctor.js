@@ -3,6 +3,7 @@ import {Link, useNavigate} from 'react-router-dom';
 import axios from 'axios';
 import swal from 'sweetalert';
 import Navbar from './Navbar';
+import './css/EditDoc.css';
 
 function AddDoctor() {
 
@@ -49,8 +50,7 @@ function AddDoctor() {
         <>
         <Navbar />
         <div className="col-sm-6 offset-sm-3">
-            <h4>Add Doctor 
-                <Link to={'/dashboard'} className="btn btn-danger btn-sm float-end"> BACK</Link>
+            <h4 >Add Doctor 
             </h4>
         </div>
         <div className="col-sm-6 offset-sm-3">
@@ -69,6 +69,7 @@ function AddDoctor() {
 
                 <div className="form-group mb-3">
                     <button type="submit" className="btn btn-primary">Save Doctor</button>
+                    <Link to={'/dashboard'} className="btn btn-danger btn-sm float-end"> BACK</Link>
                 </div>
             </form>
         </div>

@@ -1,4 +1,4 @@
-import './css/Medicalrecords.css';
+import './css/MedicalRecords.css';
 import {IconButton } from "@mui/material";
 import { Icon } from "@iconify/react";
 import {Link} from 'react-router-dom'
@@ -17,13 +17,19 @@ function MedicalRecords() {
         </div>  
 
         <div class="medical-image">
-         <img src="/electronic.png" alt="bg" width={1000} height={600}></img>
+         <img src="/electronic.png" alt="bg" width={900} height={500}></img>
         </div> 
 
-        
-
-    </div>
-
+        <div className='list-medical'>
+          <ol style={{ listStyle: 'none'}}>
+            <li className='cbc'> Complete Blood Count (CBC)</li>
+            <li className='xray'> X-Ray</li>
+            <li className='hepa'> Hepa B Screening</li>
+            <li className='ecg'> ElectroCardiogram (ECG)</li>
+            <li className='urin'> Urinalysis</li>     
+          </ol>
+        </div>
+</div>
 
 
 
