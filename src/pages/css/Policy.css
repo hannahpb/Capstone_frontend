@@ -1,0 +1,49 @@
+.header-policy{
+    border: 10px;
+    width: 100%;
+    height: 120px;
+    overflow: hidden;
+    margin-top: -2px;
+    background-color: #011387;
+
+}
+
+.policy-header-title{
+    margin-left: 190px;
+    color: #fff;
+    font-size: 40px;
+    margin-top: -50px;
+    font-family: monospace;
+
+}
+
+
+.definition{
+    margin: auto;
+    width: 520px; 
+    padding: 50px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 19px;
+    text-align: justify;
+  }
+
+  .def1{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 19px;
+  }
+  .subject{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 19px;
+    padding: 18px;
+  }
+  
+  

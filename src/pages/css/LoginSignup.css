@@ -1,0 +1,40 @@
+
+.full-header{
+    background-color:#6C85BD;
+    height: 973px;
+}
+
+.btn3 {
+    background-color: #FFFFFF;
+    border-radius:25px;
+    border: none;
+    text-align: center;
+    font-size: 25px;
+    cursor: pointer;
+    width:350px;
+    height:70px;
+    margin-top:350px;
+    margin-left:500px;
+    font-family:"monospace"
+
+}
+
+.btn1 {
+    background-color: #FFFFFF;
+    border-radius:25px;
+    border: none;
+    text-align: center;
+    font-size: 25px;
+    cursor: pointer;
+    width:350px;
+    height:70px;
+    margin-top:50px;
+    margin-left:500px;
+    font-family:"monospace"
+
+}
+
+.image-background{
+    margin-left: 1050px;
+    margin-top: -370px;
+}

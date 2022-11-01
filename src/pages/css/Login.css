@@ -1,0 +1,44 @@
+.nav-square{
+  width: 100%;
+  border-radius: 1px;
+  background-color: #4350A8;
+  padding:20px;
+}
+
+.hippo-logo{
+  margin-left: 45%;
+}
+
+.login{
+  font-size:30px;
+  padding-left:450px;
+  font-weight: bold;
+  
+}
+.password{
+  margin-top: 15px;
+}
+
+.btn4{
+  height:40px;
+  width:200px;
+  border:none;
+  border-radius:10px;
+  margin-top:50px;
+  margin-left: 400px;
+  text-align:center;
+  color:white;
+  font-size:20px;
+  background-color: #4350A8;
+  font-family: monospace;
+}
+
+
+.user-choices{
+  margin-left: 650px;
+}
+
+.user-choices-one{
+  margin-left: 830px;
+  margin-top: -35px;
+}

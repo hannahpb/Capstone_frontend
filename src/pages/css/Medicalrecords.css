@@ -1,0 +1,18 @@
+
+.full-body{
+    background-color:#011387;
+    height: 100%;
+}
+
+.record-text{
+    color:white;
+    font-family: monospace;
+    font-size: 30px;
+    margin-left: 150px;
+    margin-top: -45px;
+}
+
+.medical-image{
+    margin-left: -170px;
+    margin-top: 150px;
+}
